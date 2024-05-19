@@ -1,0 +1,8 @@
+---
+- name: Main playbook
+  hosts: localhost
+  gather_facts: no
+  tasks:
+  - name: Info
+    debug:
+      msg: 'Hello World!'
